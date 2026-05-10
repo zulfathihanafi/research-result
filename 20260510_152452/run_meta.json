@@ -1,0 +1,7 @@
+{
+  "run_id": "20260510_152452",
+  "scheduler": "drs-scheduler",
+  "workload": "even",
+  "num_pods": 100,
+  "started_at": "2026-05-10T15:24:56+00:00"
+}
