@@ -1,0 +1,7 @@
+{
+  "run_id": "20260511_231242",
+  "scheduler": "dqn-scheduler",
+  "workload": "even",
+  "num_pods": 100,
+  "started_at": "2026-05-11T23:13:02+00:00"
+}
