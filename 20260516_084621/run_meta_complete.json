@@ -1,0 +1,7 @@
+{
+  "run_id": "20260516_084621",
+  "scheduler": "default-scheduler",
+  "workload": "fusion-only",
+  "num_pods": 100,
+  "completed_at": "2026-05-16T09:21:15+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "run_id": "20260516_074107",
+  "scheduler": "default-scheduler",
+  "workload": "random",
+  "num_pods": 100,
+  "completed_at": "2026-05-16T08:15:49+00:00"
+}
