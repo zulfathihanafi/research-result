@@ -1,0 +1,7 @@
+{
+  "run_id": "20260512_060416",
+  "scheduler": "dqn-scheduler",
+  "workload": "fusion-heavy",
+  "num_pods": 100,
+  "completed_at": "2026-05-12T06:38:31+00:00"
+}
