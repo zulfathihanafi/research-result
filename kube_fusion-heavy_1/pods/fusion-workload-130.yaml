@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fusion-workload-130
+  labels:
+    app: fusion-workload
+    workload-type: fusion
+    run-id: "kube_fusion-heavy_1"
+    scheduler: "default-scheduler"
+spec:
+  schedulerName: default-scheduler
+  restartPolicy: Never
+  containers:
+  - name: fusion-app
+    image: fathiimran/workload-fusion:1.2
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: "255m"
+        memory: "512Mi"
+      limits:
+        cpu: "255m"
+        memory: "512Mi"
+    envFrom:
+    - configMapRef:
+        name: db-workload-config

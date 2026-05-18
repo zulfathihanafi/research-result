@@ -1,0 +1,7 @@
+{
+  "run_id": "kube_random_1",
+  "scheduler": "default-scheduler",
+  "workload": "random",
+  "num_pods": 200,
+  "started_at": "2026-05-18T04:56:23+00:00"
+}

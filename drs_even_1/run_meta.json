@@ -1,0 +1,7 @@
+{
+  "run_id": "drs_even_1",
+  "scheduler": "dqn-scheduler",
+  "workload": "even",
+  "num_pods": 200,
+  "started_at": "2026-05-18T06:01:30+00:00"
+}

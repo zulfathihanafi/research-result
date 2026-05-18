@@ -1,0 +1,7 @@
+{
+  "run_id": "mdrs_random_1",
+  "scheduler": "dqn-scheduler",
+  "workload": "random",
+  "num_pods": 200,
+  "started_at": "2026-05-18T12:26:10+00:00"
+}

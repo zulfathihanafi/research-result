@@ -1,0 +1,7 @@
+{
+  "run_id": "mdrs_fusion-only_1",
+  "scheduler": "dqn-scheduler",
+  "workload": "fusion-only",
+  "num_pods": 200,
+  "started_at": "2026-05-18T13:10:23+00:00"
+}

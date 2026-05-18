@@ -1,0 +1,7 @@
+{
+  "run_id": "kube_fusion-only_1",
+  "scheduler": "default-scheduler",
+  "workload": "fusion-only",
+  "num_pods": 200,
+  "started_at": "2026-05-18T05:41:31+00:00"
+}

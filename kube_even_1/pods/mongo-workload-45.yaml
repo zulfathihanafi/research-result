@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongo-workload-45
+  labels:
+    app: mongo-workload
+    workload-type: mongo
+    run-id: "kube_even_1"
+    scheduler: "default-scheduler"
+spec:
+  schedulerName: default-scheduler
+  restartPolicy: Never
+  containers:
+  - name: mongo-app
+    image: fathiimran/workload-mongo:1.2
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        cpu: "421m"
+        memory: "512Mi"
+      limits:
+        cpu: "421m"
+        memory: "512Mi"
+    envFrom:
+    - configMapRef:
+        name: db-workload-config
