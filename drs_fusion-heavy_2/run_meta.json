@@ -1,0 +1,7 @@
+{
+  "run_id": "drs_fusion-heavy_2",
+  "scheduler": "dqn-scheduler",
+  "workload": "fusion-heavy",
+  "num_pods": 200,
+  "started_at": "2026-05-18T14:21:51+00:00"
+}

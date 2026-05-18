@@ -1,0 +1,4 @@
+[WORKLOAD] fusion-pod starting, endpoints=(Mongo-AWS, PG-GCP)
+[WORKLOAD] fusion-pod PG-GCP: 25 rows in 1.284s
+[WORKLOAD] fusion-pod Mongo-AWS: 25 docs in 15.995s
+[WORKLOAD] fusion-pod done: total=17.279s (pg=1.284s, mongo=15.995s)
